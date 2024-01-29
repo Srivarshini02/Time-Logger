@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="Timer.css">
+</head>
+<body>
+    <br><br>
+      
+        <div class="holder">
+    <form action="">
+        <input type="text" placeholder="Task" id="task"><br><br>
+        <input type="text" placeholder="Description" id="description"><br><br>
+    </form>
+    <img src="bg1.jpg" width="200" height="200">
+   <div class="timer">
+     <button id="timer-control" class="timer-control">Start</button><br>
+     <p id="hours">00</p>
+     <p>&nbsp;:&nbsp;</p>
+     <p id="minutes">00</p>
+     <p>&nbsp;:&nbsp;</p>
+     <p id="seconds">00</p><br>
+   </div><br>
+    <table id="entries">
+        <tr id="head">
+          <th>Task</th>
+          <th>Description</th>
+          <th>Duration</th>
+        </tr>
+        <tr>
+          <td>Meet</td>
+          <td>description</td>
+          <td>00:52:32</td>
+        </tr>
+    </table>
+</div>
+
+</body>
+<script type="module" src="Timer.js"></script>
+</html>
